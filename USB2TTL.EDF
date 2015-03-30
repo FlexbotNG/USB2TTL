@@ -1,0 +1,436 @@
+(PCB USB2TTL
+ (parser
+  (host_cad ARES)
+  (host_version 7.8 SP2)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb 0.20320 -26.77160 59.08750 17.09420))
+  (boundary (path signal 0.20320 13.33500 -1.27000 24.76500 -1.27000))
+  (boundary (path signal 0.20320 12.06500 -2.54000 12.06500 -25.40000))
+  (boundary (path signal 0.20320 26.03500 -2.54000 26.03500 -25.40000))
+  (boundary (path signal 0.20320 13.33500 -26.67000 24.76500 -26.67000))
+  (boundary (path signal 0.20320 12.06500 -2.54000 12.09027 -2.28032 12.16298 -2.04018
+   12.27847 -1.82423 12.43211 -1.63711 12.61923 -1.48347 12.83518 -1.36798 13.07532 -1.29527
+   13.33500 -1.27000))
+  (boundary (path signal 0.20320 24.76500 -1.27000 25.02467 -1.29527 25.26481 -1.36798
+   25.48076 -1.48347 25.66789 -1.63711 25.82152 -1.82423 25.93702 -2.04018 26.00973 -2.28032
+   26.03500 -2.54000))
+  (boundary (path signal 0.20320 26.03500 -25.40000 26.00973 -25.65967 25.93702 -25.89981
+   25.82152 -26.11576 25.66789 -26.30289 25.48076 -26.45652 25.26481 -26.57202 25.02467 -26.64473
+   24.76500 -26.67000))
+  (boundary (path signal 0.20320 12.06500 -25.40000 12.09027 -25.65967 12.16298 -25.89981
+   12.27847 -26.11576 12.43211 -26.30289 12.61923 -26.45652 12.83518 -26.57202 13.07532 -26.64473
+   13.33500 -26.67000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.15240)
+  (grid wire 0.15240)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA_POWER
+   $VIA_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.20320 (type wire_via))
+   (clearance 0.20320 (type wire_smd))
+   (clearance 0.20320 (type wire_pin))
+   (clearance 0.20320 (type wire_wire))
+   (clearance 0.20320 (type via_pin))
+   (clearance 0.20320 (type via_via))
+   (clearance 0.20320 (type via_smd))
+  )
+ )
+ (placement
+  (component SSOP28_RT232R (place RT232R 23.24100 -13.97000 front -90))
+  (component 0805_C1 (place C1 24.76500 -9.52500 front 180))
+  (component CAPMP3216X180_C_TANT_3216 (place C_TANT_3216 24.13000 -6.98500 front 180
+  ))
+  (component "CONN-SIL5_MWC" (place MWC 13.97000 -3.81000 front 0))
+  (component 0805_RX (place RX 17.78000 -12.06500 front 90))
+  (component 0805_TX (place TX 20.32000 -12.06500 front 90))
+  (component "CONN-SIL4_P M + -" (place "P M + -" 22.86000 -24.13000 front 180))
+  (component 0805_R_TX (place R_TX 24.76500 -12.06500 front 180))
+  (component 0805_RST (place RST 13.33500 -6.98500 front 0))
+  (component 0805_C2 (place C2 15.46860 -9.52500 front 180))
+  (component 0805_R_RX (place R_RX 13.33500 -12.06500 front 0))
+ )
+ (library
+  (image SSOP28_RT232R (side front)
+   (outline (rect TOP -0.55000 -8.90160 7.55000 0.60160))
+   (pin PS0 (rotate 90) 0 0.00000 0.00000)
+   (pin PS0 (rotate 90) 1 0.00000 -0.65000)
+   (pin PS0 (rotate 90) 2 0.00000 -1.30000)
+   (pin PS0 (rotate 90) 3 0.00000 -1.95000)
+   (pin PS0 (rotate 90) 4 0.00000 -2.60000)
+   (pin PS0 (rotate 90) 5 0.00000 -3.25000)
+   (pin PS0 (rotate 90) 6 0.00000 -3.90000)
+   (pin PS0 (rotate 90) 7 0.00000 -4.55000)
+   (pin PS0 (rotate 90) 8 0.00000 -5.20000)
+   (pin PS0 (rotate 90) 9 0.00000 -5.85000)
+   (pin PS0 (rotate 90) 10 0.00000 -6.50000)
+   (pin PS0 (rotate 90) 11 0.00000 -7.15000)
+   (pin PS0 (rotate 90) 12 0.00000 -7.80000)
+   (pin PS0 (rotate 90) 13 0.00000 -8.45000)
+   (pin PS0 (rotate 90) 14 7.00000 -8.45000)
+   (pin PS0 (rotate 90) 15 7.00000 -7.80000)
+   (pin PS0 (rotate 90) 16 7.00000 -7.15000)
+   (pin PS0 (rotate 90) 17 7.00000 -6.50000)
+   (pin PS0 (rotate 90) 18 7.00000 -5.85000)
+   (pin PS0 (rotate 90) 19 7.00000 -5.20000)
+   (pin PS0 (rotate 90) 20 7.00000 -4.55000)
+   (pin PS0 (rotate 90) 21 7.00000 -3.90000)
+   (pin PS0 (rotate 90) 22 7.00000 -3.25000)
+   (pin PS0 (rotate 90) 23 7.00000 -2.60000)
+   (pin PS0 (rotate 90) 24 7.00000 -1.95000)
+   (pin PS0 (rotate 90) 25 7.00000 -1.30000)
+   (pin PS0 (rotate 90) 26 7.00000 -0.65000)
+   (pin PS0 (rotate 90) 27 7.00000 0.00000)
+  )
+  (image 0805_C1 (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image CAPMP3216X180_C_TANT_3216 (side front)
+   (outline (rect TOP -1.30000 -1.17500 3.77500 1.45000))
+   (pin PS2 (rotate 90) 0 0.00000 0.00000)
+   (pin PS2 (rotate 90) 1 2.60000 0.00000)
+  )
+  (image "CONN-SIL5_MWC" (side front)
+   (outline (rect TOP -1.37160 -1.37160 11.53160 1.37160))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS3 (rotate 0) 1 2.54000 0.00000)
+   (pin PS3 (rotate 0) 2 5.08000 0.00000)
+   (pin PS3 (rotate 0) 3 7.62000 0.00000)
+   (pin PS3 (rotate 0) 4 10.16000 0.00000)
+  )
+  (image 0805_RX (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image 0805_TX (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image "CONN-SIL4_P M + -" (side front)
+   (outline (rect TOP -1.37160 -1.37160 8.99160 1.37160))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS3 (rotate 0) 1 2.54000 0.00000)
+   (pin PS3 (rotate 0) 2 5.08000 0.00000)
+   (pin PS3 (rotate 0) 3 7.62000 0.00000)
+  )
+  (image 0805_R_TX (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image 0805_RST (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image 0805_C2 (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (image 0805_R_RX (side front)
+   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
+   (pin PS1 (rotate 0) 0 0.00000 0.00000)
+   (pin PS1 (rotate 0) 1 2.13360 0.00000)
+  )
+  (padstack PS0 (absolute on) (shape (rect TOP -0.20000 -0.55000 0.20000 0.55000)))
+  (padstack PS1 (absolute on) (shape (rect TOP -0.50800 -0.63500 0.50800 0.63500)))
+  (padstack PS2 (absolute on) (shape (rect TOP -0.62230 -0.90170 0.62230 0.90170)))
+  (padstack PS3 (absolute on)
+   (shape (rect TOP -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I1 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I2 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I3 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I4 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I5 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I6 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I7 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I8 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I9 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I10 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I11 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I12 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I13 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect I14 -1.01600 -1.01600 1.01600 1.01600))
+   (shape (rect BOT -1.01600 -1.01600 1.01600 1.01600))
+  )
+  (padstack $VIA_POWER (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+  (padstack $VIA_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "#00030"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins TX-0 R_TX-1)
+  )
+  (net "#00032"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RX-0 R_RX-1)
+  )
+  (net "#00034"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins MWC-0 RST-0)
+  )
+  (net "3V3OUT"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-16 C2-1)
+  )
+  (net "CTS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-10)
+  )
+  (net "DCD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-9)
+  )
+  (net "DSR"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-8)
+  )
+  (net "DTR"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-1 RST-1)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+    (pins RT232R-6 RT232R-17 RT232R-20 RT232R-24 RT232R-25 C1-1 C_TANT_3216-1 MWC-3 "P M + -"-0
+    C2-0)
+  )
+  (net "RI"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-5)
+  )
+  (net "RTS"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-2)
+  )
+  (net "RX"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-4 MWC-1)
+  )
+  (net "RXLED"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-21 R_RX-0)
+  )
+  (net "TX"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-0 MWC-2)
+  )
+  (net "TXLED"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-22 R_TX-0)
+  )
+  (net "USBDM"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-15 "P M + -"-2)
+  )
+  (net "USBDP"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins RT232R-14 "P M + -"-3)
+  )
+  (net "VCC/VDD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_POWER)
+   )
+    (pins RT232R-3 RT232R-18 RT232R-19 C1-0 C_TANT_3216-0 MWC-4 RX-1 TX-1 "P M + -"-1
+   )
+  )
+  (class POWER
+   "GND"
+   "VCC/VDD"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.20320 (type wire_via))
+    (clearance 0.20320 (type wire_smd))
+    (clearance 0.20320 (type wire_pin))
+    (clearance 0.20320 (type wire_wire))
+    (clearance 0.20320 (type via_pin))
+    (clearance 0.20320 (type via_via))
+    (clearance 0.20320 (type via_smd))
+   )
+  )
+  (class SIGNAL
+   "#00030"
+   "#00032"
+   "#00034"
+   "3V3OUT"
+   "CTS"
+   "DCD"
+   "DSR"
+   "DTR"
+   "RI"
+   "RTS"
+   "RX"
+   "RXLED"
+   "TX"
+   "TXLED"
+   "USBDM"
+   "USBDP"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.20320 (type wire_via))
+    (clearance 0.20320 (type wire_smd))
+    (clearance 0.20320 (type wire_pin))
+    (clearance 0.20320 (type wire_wire))
+    (clearance 0.20320 (type via_pin))
+    (clearance 0.20320 (type via_via))
+    (clearance 0.20320 (type via_smd))
+   )
+  )
+ )
+ (wiring
+   (wire (path TOP 0.30480 15.44100 -20.97000 15.44100 -21.84400 16.07600 -22.47900 17.14500 -22.47900
+   17.65300 -22.98700 17.65300 -23.11400) (net "USBDM") (type protect))
+   (wire (path TOP 0.30480 17.65300 -23.11400 17.78000 -24.13000) (net "USBDM") (type protect)
+  )
+   (wire (path TOP 0.30480 14.79100 -20.97000 14.79100 -23.11400) (net "USBDP") (type protect)
+  )
+   (wire (path TOP 0.30480 14.79100 -23.11400 15.24000 -24.13000) (net "USBDP") (type protect)
+  )
+   (wire (path TOP 0.30480 21.29100 -20.97000 21.29100 -22.22500 21.94100 -22.22500)
+   (net "GND") (type protect))
+   (wire (path TOP 0.30480 21.94100 -22.22500 21.94100 -20.97000) (net "GND") (type protect)
+  )
+   (wire (path TOP 0.30480 21.94100 -22.22500 22.86000 -23.14400 22.86000 -24.13000)
+   (net "GND") (type protect))
+   (wire (path TOP 0.30480 17.39100 -20.97000 17.39100 -21.84400 18.04100 -21.84400)
+   (net "VCC/VDD") (type protect))
+   (wire (path TOP 0.30480 18.04100 -21.84400 18.04100 -20.97000) (net "VCC/VDD") (type protect)
+  )
+   (wire (path TOP 0.30480 18.04100 -21.84400 18.67600 -22.47900 19.81200 -22.47900 20.32000 -22.98700
+   20.32000 -24.13000) (net "VCC/VDD") (type protect))
+   (wire (path TOP 0.30480 24.13000 -6.98500 24.13000 -3.81000) (net "VCC/VDD") (type protect)
+  )
+   (wire (path TOP 0.30480 21.53000 -6.98500 21.53000 -4.82600) (net "GND") (type protect)
+  )
+   (wire (path TOP 0.30480 21.53000 -4.82600 21.59000 -3.81000) (net "GND") (type protect)
+  )
+   (wire (path TOP 0.30480 13.33500 -6.98500 13.33500 -5.71500 13.97000 -5.08000 13.97000 -3.81000
+  ) (net "#00034") (type protect))
+   (wire (path TOP 0.25400 22.63140 -9.52500 22.63140 -8.89000 21.59000 -7.84860 21.59000 -6.98500
+   21.53000 -6.98500) (net "GND") (type protect))
+   (wire (path TOP 0.30480 24.76500 -9.52500 24.76500 -8.25500 24.13000 -7.62000 24.13000 -6.98500
+  ) (net "VCC/VDD") (type protect))
+ )
+)
